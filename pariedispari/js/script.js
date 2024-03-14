@@ -6,17 +6,16 @@
 //Dichiariamo chi ha vinto.
 
 
-// chiedere pari e dispari a l'utente 
-// chiedere un numero a l'utente che vada da 1  a 5 
-// generare un numero random per il computer che vada da 1 a 5
-// sommare i due numeri
-// determinare se un numero è pari o dispari
-// in base a la scelta dell'utente dichiarare se ha vinto o ha perso.
 
+// chiedere pari o dispari a l'utente 
 const userChoice = prompt('scegli pari o dispari').toLowerCase();
+// chiedere un numero a l'utente che vada da 1  a 5 
 const userNumber = parseInt(prompt('scegli un numero da 1 a 5'));
+// generare un numero random per il computer che vada da 1 a 5
 const computerNumber = getRndInteger (1, 5);
+// sommare i due numeri
 const playerVsPngSum = userNumber + computerNumber;
+// in base a la scelta dell'utente dichiarare se ha vinto o ha perso.
 let win;
 let showMessage;
 
