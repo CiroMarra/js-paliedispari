@@ -10,15 +10,6 @@
 
 // // FUNCTION
 
-// function palindrome(word) {
-//     let revertWord = "";
-//     for(let i = userWord.length -1; i >= 0; i--) {
-//         thisLetter += userWord[i];
-//     }
-
-//     console.log(revertWord);
-//     return revertWord;
-// }
 let userWord = prompt('dimmi una parola');
 const revWord = revertWord(userWord);
 alert(revertWord(userWord));
